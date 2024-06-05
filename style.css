@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #000f26;
+    color: white;
+}
+nav h1{
+    font-size: 2em;
+}
+nav button {
+    padding: 10px 30px;
+    background: purple;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+.hero{
+    background-color: #000f26;
+    color: white;
+    padding-bottom: 25%;
+    /* padding: 15% 38%; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .title{
+    width: 45vw;
+}
+.hero .title h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero .title p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.hero .title button {
+    padding: 10px 40px;
+    color: white;
+    background: purple;
+    border: none;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .main .img1{
+    height: 60em;
+    /* width: 33%; */
+    /* margin-top: -20%;
+} */ 
+.main img{
+    height: 20%;
+    width: 10%;
+}
+.main .img2{
+    height: 60em;
+    /* width: 33%; */
+    margin-top: -30%;
+}
+.main .img2 img{
+    height: 60%;
+    width: 33%;
+}
+.main .img3{
+    height: 60em;
+    /* width: 33%; */
+    margin-top: -20%;
+}
+.main .img3 img{
+    height: 60%;
+    width: 33%;
+}
